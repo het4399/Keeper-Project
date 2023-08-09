@@ -1,7 +1,4 @@
-//1. Create a new React app.
-//2. Create a App.jsx component.
-//3. Create a Header.jsx component that renders a <header> element
-//to show the Keeper App name in an <h1>.
+
 //4. Create a Footer.jsx component that renders a <footer> element
 //to show a copyright message in a <p> with a dynamically updated year.
 //5. Create a Note.jsx component to show a <div> element with a
@@ -10,3 +7,11 @@
 //https://l1pp6.csb.app/
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
+
+
+import React from "react";
+import ReactDOM from "react-dom";
+// import Header from "./Components/Header";
+import App from "./Components/App";
+
+ReactDOM.render(<App />,document.getElementById("root"));
